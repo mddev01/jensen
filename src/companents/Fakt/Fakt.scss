@@ -1,0 +1,153 @@
+.fakt{
+    h3{
+        margin: 0 auto;
+        width: 422px;
+        height: 65px;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 65px;
+    }
+    .card{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 59px;
+        .cards{
+            background-image: url(../../assets/img/xat.png);
+            width: 384px;
+            height: 398px;
+            h5{
+                font-weight: 600;
+                font-size: 46px;
+                line-height: 75px;
+                text-align: center;
+                margin-top: 140px;
+                color: #770613;
+            }
+            hr{
+                margin-top: -75px;
+                height: 2px;
+                width: 173px;
+                background-color: #770613;
+            }
+            p{
+                padding-top: 20px;
+                font-weight: 400;
+                font-style: 18px;
+                line-height: 20px;
+                width: 175px;
+                height: 62px;
+                text-align: center;
+                margin: 0 auto;
+                color: #770613;
+            }
+        }
+    }
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+@media  screen and (max-width: 1200px) {
+    .fakt{
+        overflow-x: hidden;
+        h3{
+            margin: 0 auto;
+            width: 422px;
+            height: 65px;
+            font-weight: 400;
+            font-size: 54px;
+            line-height: 65px;
+        }
+        .card{
+            margin-left: 70px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 59px;
+            width: 1000px;
+            .cards{
+                background-image: url(../../assets/img/xat.png);
+                width: 384px;
+                height: 398px;
+                flex-wrap: wrap;
+                margin: 0 auto;
+                h5{
+                    font-weight: 600;
+                    font-size: 46px;
+                    line-height: 75px;
+                    text-align: center;
+                    margin-top: 140px;
+                    color: #770613;
+                }
+                hr{
+                    margin-top: -75px;
+                    height: 2px;
+                    width: 173px;
+                    background-color: #770613;
+                }
+                p{
+                    padding-top: 20px;
+                    font-weight: 400;
+                    font-style: 18px;
+                    line-height: 20px;
+                    width: 175px;
+                    height: 62px;
+                    text-align: center;
+                    margin: 0 auto;
+                    color: #770613;
+                }
+            }
+        }
+    }
+}
+@media  screen and (max-width: 900px) {
+    .fakt{
+        overflow-x: hidden;
+        h3{
+            margin: 0 auto;
+            width: 422px;
+            height: 65px;
+            font-weight: 400;
+            font-size: 54px;
+            line-height: 65px;
+        }
+        .card{
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 59px;
+            width: 700px;
+            .cards{
+                background-image: url(../../assets/img/xat.png);
+                width: 384px;
+                height: 398px;
+                h5{
+                    font-weight: 600;
+                    font-size: 46px;
+                    line-height: 75px;
+                    text-align: center;
+                    margin-top: 140px;
+                    color: #770613;
+                }
+                hr{
+                    margin-top: -75px;
+                    height: 2px;
+                    width: 173px;
+                    background-color: #770613;
+                }
+                p{
+                    padding-top: 20px;
+                    font-weight: 400;
+                    font-style: 18px;
+                    line-height: 20px;
+                    width: 175px;
+                    height: 62px;
+                    text-align: center;
+                    margin: 0 auto;
+                    color: #770613;
+                }
+            }
+        }
+    }
+}
